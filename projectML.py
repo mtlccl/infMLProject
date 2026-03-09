@@ -47,7 +47,7 @@ X_train_splt, X_test_splt, y_train_splt, y_test_splt = train_test_split(
 )
 
 # =============================================================================
-# 2. MODELO BASELINE: PERCEPTRON (REQUISITOS 1.2, 1.3, 1.4)
+#  MODELO BASELINE: PERCEPTRON (REQUISITOS 1.2, 1.3, 1.4)
 # =============================================================================
 
 # Construção do modelo baseline utilizando Pipeline (Requisito 1.2)
@@ -105,7 +105,7 @@ plt.show()
 # Se a árvore não for limitada (max_depth=None), ela tende a decorar o treino (100% acerto) e falhar no teste.
 
 # =============================================================================
-# 4. VALIDAÇÃO CRUZADA E BUSCA DE HIPERPARÂMETROS (REQUISITOS 2, 2.1, 2.2, 2.3)
+# 2. VALIDAÇÃO CRUZADA E BUSCA DE HIPERPARÂMETROS (REQUISITOS 2, 2.1, 2.2, 2.3)
 # =============================================================================
 
 # Espaço de busca para regularização da árvore (Requisito 2.1)
@@ -130,7 +130,7 @@ print(f"\nRobustez da Árvore Otimizada (F1 médio nos folds): {res_cv['test_sco
 # Ao definir min_samples_leaf > 1, impedimos que a árvore crie folhas para casos isolados (ruído).
 
 # =============================================================================
-# 5. MODELO AVANÇADO: ENSEMBLE RANDOM FOREST (REQUISITOS 4, 4.1, 4.2, 4.3)
+# 4. MODELO AVANÇADO: ENSEMBLE RANDOM FOREST (REQUISITOS 4, 4.1, 4.2, 4.3)
 # =============================================================================
 
 # Implementação de Ensemble (Random Forest) (Requisito 4)
