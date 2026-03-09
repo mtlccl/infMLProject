@@ -1,0 +1,13 @@
+# Manipulação de Dados
+pandas
+numpy
+
+# Download de Datasets
+kagglehub
+
+# Visualização de Dados e Gráficos
+matplotlib
+seaborn
+
+# Machine Learning (Scikit-Learn)
+scikit-learn
